@@ -1,19 +1,20 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/mohamad/Desktop/tp_threads/src/ensitheora.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/ensitheora.c.o"
+  "/home/mohamad/Desktop/tp_threads/src/ensivideo.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/ensivideo.c.o"
+  "/home/mohamad/Desktop/tp_threads/src/ensivorbis.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/ensivorbis.c.o"
+  "/home/mohamad/Desktop/tp_threads/src/oggstream.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/oggstream.c.o"
+  "/home/mohamad/Desktop/tp_threads/src/stream_common.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/stream_common.c.o"
+  "/home/mohamad/Desktop/tp_threads/src/synchro.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/synchro.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/hamodenajda/Desktop/tp_threads/src/ensitheora.c" "CMakeFiles/ensivideo.dir/src/ensitheora.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/ensitheora.c.o.d"
-  "/Users/hamodenajda/Desktop/tp_threads/src/ensivideo.c" "CMakeFiles/ensivideo.dir/src/ensivideo.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/ensivideo.c.o.d"
-  "/Users/hamodenajda/Desktop/tp_threads/src/ensivorbis.c" "CMakeFiles/ensivideo.dir/src/ensivorbis.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/ensivorbis.c.o.d"
-  "/Users/hamodenajda/Desktop/tp_threads/src/oggstream.c" "CMakeFiles/ensivideo.dir/src/oggstream.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/oggstream.c.o.d"
-  "/Users/hamodenajda/Desktop/tp_threads/src/stream_common.c" "CMakeFiles/ensivideo.dir/src/stream_common.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/stream_common.c.o.d"
-  "/Users/hamodenajda/Desktop/tp_threads/src/synchro.c" "CMakeFiles/ensivideo.dir/src/synchro.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/synchro.c.o.d"
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.

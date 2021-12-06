@@ -1,7 +1,7 @@
-/Users/hamodenajda/Desktop/tp_threads/build/CMakeFiles/edit_cache.dir
-/Users/hamodenajda/Desktop/tp_threads/build/CMakeFiles/rebuild_cache.dir
-/Users/hamodenajda/Desktop/tp_threads/build/CMakeFiles/check.dir
-/Users/hamodenajda/Desktop/tp_threads/build/CMakeFiles/package_source.dir
-/Users/hamodenajda/Desktop/tp_threads/build/CMakeFiles/package.dir
-/Users/hamodenajda/Desktop/tp_threads/build/CMakeFiles/test.dir
-/Users/hamodenajda/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir
+/home/mohamad/Desktop/tp_threads/build/CMakeFiles/edit_cache.dir
+/home/mohamad/Desktop/tp_threads/build/CMakeFiles/test.dir
+/home/mohamad/Desktop/tp_threads/build/CMakeFiles/rebuild_cache.dir
+/home/mohamad/Desktop/tp_threads/build/CMakeFiles/package.dir
+/home/mohamad/Desktop/tp_threads/build/CMakeFiles/check.dir
+/home/mohamad/Desktop/tp_threads/build/CMakeFiles/package_source.dir
+/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir
