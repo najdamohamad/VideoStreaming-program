@@ -141,6 +141,16 @@ int decodeAllHeaders(int respac, struct streamstate *s, enum streamtype type) {
 	    if (type == TYPE_THEORA) {
 		// lancement du thread gérant l'affichage (draw2SDL)
 	        // inserer votre code ici !!
+		int SDL ;
+		pthread_create(&theora2sdlthread,NULL,&draw2SDL,s->serial);
+		if(SDL != 0 )
+		{
+			printf("SDL THREAD ERROR NOT CREATED");
+		}
+		else
+		{
+			printf("SDL THREAD  CREATED");
+		}
 
 		assert(res == 0);		     
 	    }
