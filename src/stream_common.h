@@ -2,9 +2,12 @@
 #define STREAM_COMMON_H
 
 #include "ensivideo.h"
+#include <pthread.h>
+
+
 
 extern bool fini;
-extern pthread_t theora2sdlthread;
+extern pthread_t thread2SDL;
 extern struct timespec datedebut;
 
 int msFromStart();

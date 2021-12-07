@@ -1,12 +1,14 @@
 #ifndef ENSIVIDEO_H
 #define ENSIVIDEO_H
 
+#include <pthread.h>
 #include <stdbool.h>
 #include <ogg/ogg.h>
 #include <theora/theora.h>
 #include <theora/theoradec.h>
 #include <vorbis/codec.h>
 #include "uthash.h"
+
 
 enum streamtype { TYPE_UNKNOW, TYPE_THEORA, TYPE_VORBIS };
 

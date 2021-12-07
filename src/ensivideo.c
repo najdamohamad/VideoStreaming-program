@@ -2,13 +2,12 @@
 #include <unistd.h>
 #include <assert.h>
 #include <SDL2/SDL.h>
+#include <semaphore.h>
+#include "synchro.h"
+
 
 #include "stream_common.h"
 #include "oggstream.h"
-
-
-
-pthread_t ogg ;
 
 
 
@@ -22,7 +21,11 @@ int main(int argc, char *argv[]) {
 	fprintf(stderr, "Usage: %s FILE", argv[0]);
 	exit(EXIT_FAILURE);
     }
-    assert(argc == 2);    
+    assert(argc == 2);
+
+    //initialisation de notre sem 
+    sem_init(&sem_taille_fenetre,0,0);
+    sem_init(&sem_signale_fenetre,0,0);    
 
     // Initialisation de la SDL
 
@@ -59,11 +62,11 @@ int main(int argc, char *argv[]) {
 
     // tuer les deux threads videos si ils sont bloqués
     pthread_cancel(theora);
-    pthread_cancel(thread_SDL);
+    pthread_cancel(thread2SDL);
     printf("ALL THREADS DONE");
     // attendre les 2 threads videos
     pthread_join(theora,NULL);
-    pthread_join(thread_SDL,NULL);
+    pthread_join(thread2SDL,NULL);
 
 
     
