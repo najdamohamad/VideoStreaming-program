@@ -14,6 +14,24 @@ SDL2/SDL.h
 ensivideo.h
 /home/mohamad/Desktop/tp_threads/src/ensivideo.h
 
+/home/mohamad/Desktop/tp_threads/src/ensivideo.c
+stdio.h
+-
+unistd.h
+-
+assert.h
+-
+SDL2/SDL.h
+-
+semaphore.h
+-
+synchro.h
+/home/mohamad/Desktop/tp_threads/src/synchro.h
+stream_common.h
+/home/mohamad/Desktop/tp_threads/src/stream_common.h
+oggstream.h
+/home/mohamad/Desktop/tp_threads/src/oggstream.h
+
 /home/mohamad/Desktop/tp_threads/src/ensivideo.h
 pthread.h
 -
@@ -30,12 +48,12 @@ vorbis/codec.h
 uthash.h
 /home/mohamad/Desktop/tp_threads/src/uthash.h
 
-/home/mohamad/Desktop/tp_threads/src/synchro.c
-synchro.h
-/home/mohamad/Desktop/tp_threads/src/synchro.h
-ensitheora.h
-/home/mohamad/Desktop/tp_threads/src/ensitheora.h
-semaphore.h
+/home/mohamad/Desktop/tp_threads/src/oggstream.h
+
+/home/mohamad/Desktop/tp_threads/src/stream_common.h
+ensivideo.h
+/home/mohamad/Desktop/tp_threads/src/ensivideo.h
+pthread.h
 -
 
 /home/mohamad/Desktop/tp_threads/src/synchro.h
