@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mohamad/Desktop/tp_threads
+CMAKE_SOURCE_DIR = /home/corentin/Documents/sepc/tp_threads
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mohamad/Desktop/tp_threads/build
+CMAKE_BINARY_DIR = /home/corentin/Documents/sepc/tp_threads/build
 
 # Utility rule file for check.
 
@@ -71,6 +71,6 @@ CMakeFiles/check.dir/clean:
 .PHONY : CMakeFiles/check.dir/clean
 
 CMakeFiles/check.dir/depend:
-	cd /home/mohamad/Desktop/tp_threads/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mohamad/Desktop/tp_threads /home/mohamad/Desktop/tp_threads /home/mohamad/Desktop/tp_threads/build /home/mohamad/Desktop/tp_threads/build /home/mohamad/Desktop/tp_threads/build/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/corentin/Documents/sepc/tp_threads/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/corentin/Documents/sepc/tp_threads /home/corentin/Documents/sepc/tp_threads /home/corentin/Documents/sepc/tp_threads/build /home/corentin/Documents/sepc/tp_threads/build /home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check.dir/depend
 

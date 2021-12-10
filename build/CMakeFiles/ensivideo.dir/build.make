@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mohamad/Desktop/tp_threads
+CMAKE_SOURCE_DIR = /home/corentin/Documents/sepc/tp_threads
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mohamad/Desktop/tp_threads/build
+CMAKE_BINARY_DIR = /home/corentin/Documents/sepc/tp_threads/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ensivideo.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/ensivideo.dir/flags.make
 
 CMakeFiles/ensivideo.dir/src/ensivideo.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/ensivideo.c.o: ../src/ensivideo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/Desktop/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ensivideo.dir/src/ensivideo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensivideo.c.o   -c /home/mohamad/Desktop/tp_threads/src/ensivideo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ensivideo.dir/src/ensivideo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensivideo.c.o   -c /home/corentin/Documents/sepc/tp_threads/src/ensivideo.c
 
 CMakeFiles/ensivideo.dir/src/ensivideo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/ensivideo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohamad/Desktop/tp_threads/src/ensivideo.c > CMakeFiles/ensivideo.dir/src/ensivideo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corentin/Documents/sepc/tp_threads/src/ensivideo.c > CMakeFiles/ensivideo.dir/src/ensivideo.c.i
 
 CMakeFiles/ensivideo.dir/src/ensivideo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/ensivideo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohamad/Desktop/tp_threads/src/ensivideo.c -o CMakeFiles/ensivideo.dir/src/ensivideo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corentin/Documents/sepc/tp_threads/src/ensivideo.c -o CMakeFiles/ensivideo.dir/src/ensivideo.c.s
 
 CMakeFiles/ensivideo.dir/src/ensitheora.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/ensitheora.c.o: ../src/ensitheora.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/Desktop/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ensivideo.dir/src/ensitheora.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensitheora.c.o   -c /home/mohamad/Desktop/tp_threads/src/ensitheora.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ensivideo.dir/src/ensitheora.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensitheora.c.o   -c /home/corentin/Documents/sepc/tp_threads/src/ensitheora.c
 
 CMakeFiles/ensivideo.dir/src/ensitheora.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/ensitheora.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohamad/Desktop/tp_threads/src/ensitheora.c > CMakeFiles/ensivideo.dir/src/ensitheora.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corentin/Documents/sepc/tp_threads/src/ensitheora.c > CMakeFiles/ensivideo.dir/src/ensitheora.c.i
 
 CMakeFiles/ensivideo.dir/src/ensitheora.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/ensitheora.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohamad/Desktop/tp_threads/src/ensitheora.c -o CMakeFiles/ensivideo.dir/src/ensitheora.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corentin/Documents/sepc/tp_threads/src/ensitheora.c -o CMakeFiles/ensivideo.dir/src/ensitheora.c.s
 
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.o: ../src/ensivorbis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/Desktop/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ensivideo.dir/src/ensivorbis.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensivorbis.c.o   -c /home/mohamad/Desktop/tp_threads/src/ensivorbis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ensivideo.dir/src/ensivorbis.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensivorbis.c.o   -c /home/corentin/Documents/sepc/tp_threads/src/ensivorbis.c
 
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/ensivorbis.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohamad/Desktop/tp_threads/src/ensivorbis.c > CMakeFiles/ensivideo.dir/src/ensivorbis.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corentin/Documents/sepc/tp_threads/src/ensivorbis.c > CMakeFiles/ensivideo.dir/src/ensivorbis.c.i
 
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/ensivorbis.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohamad/Desktop/tp_threads/src/ensivorbis.c -o CMakeFiles/ensivideo.dir/src/ensivorbis.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corentin/Documents/sepc/tp_threads/src/ensivorbis.c -o CMakeFiles/ensivideo.dir/src/ensivorbis.c.s
 
 CMakeFiles/ensivideo.dir/src/oggstream.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/oggstream.c.o: ../src/oggstream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/Desktop/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ensivideo.dir/src/oggstream.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/oggstream.c.o   -c /home/mohamad/Desktop/tp_threads/src/oggstream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ensivideo.dir/src/oggstream.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/oggstream.c.o   -c /home/corentin/Documents/sepc/tp_threads/src/oggstream.c
 
 CMakeFiles/ensivideo.dir/src/oggstream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/oggstream.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohamad/Desktop/tp_threads/src/oggstream.c > CMakeFiles/ensivideo.dir/src/oggstream.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corentin/Documents/sepc/tp_threads/src/oggstream.c > CMakeFiles/ensivideo.dir/src/oggstream.c.i
 
 CMakeFiles/ensivideo.dir/src/oggstream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/oggstream.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohamad/Desktop/tp_threads/src/oggstream.c -o CMakeFiles/ensivideo.dir/src/oggstream.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corentin/Documents/sepc/tp_threads/src/oggstream.c -o CMakeFiles/ensivideo.dir/src/oggstream.c.s
 
 CMakeFiles/ensivideo.dir/src/stream_common.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/stream_common.c.o: ../src/stream_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/Desktop/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ensivideo.dir/src/stream_common.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/stream_common.c.o   -c /home/mohamad/Desktop/tp_threads/src/stream_common.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ensivideo.dir/src/stream_common.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/stream_common.c.o   -c /home/corentin/Documents/sepc/tp_threads/src/stream_common.c
 
 CMakeFiles/ensivideo.dir/src/stream_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/stream_common.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohamad/Desktop/tp_threads/src/stream_common.c > CMakeFiles/ensivideo.dir/src/stream_common.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corentin/Documents/sepc/tp_threads/src/stream_common.c > CMakeFiles/ensivideo.dir/src/stream_common.c.i
 
 CMakeFiles/ensivideo.dir/src/stream_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/stream_common.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohamad/Desktop/tp_threads/src/stream_common.c -o CMakeFiles/ensivideo.dir/src/stream_common.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corentin/Documents/sepc/tp_threads/src/stream_common.c -o CMakeFiles/ensivideo.dir/src/stream_common.c.s
 
 CMakeFiles/ensivideo.dir/src/synchro.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/synchro.c.o: ../src/synchro.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/Desktop/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ensivideo.dir/src/synchro.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/synchro.c.o   -c /home/mohamad/Desktop/tp_threads/src/synchro.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ensivideo.dir/src/synchro.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/synchro.c.o   -c /home/corentin/Documents/sepc/tp_threads/src/synchro.c
 
 CMakeFiles/ensivideo.dir/src/synchro.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/synchro.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mohamad/Desktop/tp_threads/src/synchro.c > CMakeFiles/ensivideo.dir/src/synchro.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/corentin/Documents/sepc/tp_threads/src/synchro.c > CMakeFiles/ensivideo.dir/src/synchro.c.i
 
 CMakeFiles/ensivideo.dir/src/synchro.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/synchro.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mohamad/Desktop/tp_threads/src/synchro.c -o CMakeFiles/ensivideo.dir/src/synchro.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/corentin/Documents/sepc/tp_threads/src/synchro.c -o CMakeFiles/ensivideo.dir/src/synchro.c.s
 
 # Object files for target ensivideo
 ensivideo_OBJECTS = \
@@ -155,7 +155,7 @@ ensivideo: CMakeFiles/ensivideo.dir/src/stream_common.c.o
 ensivideo: CMakeFiles/ensivideo.dir/src/synchro.c.o
 ensivideo: CMakeFiles/ensivideo.dir/build.make
 ensivideo: CMakeFiles/ensivideo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohamad/Desktop/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable ensivideo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable ensivideo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ensivideo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/ensivideo.dir/clean:
 .PHONY : CMakeFiles/ensivideo.dir/clean
 
 CMakeFiles/ensivideo.dir/depend:
-	cd /home/mohamad/Desktop/tp_threads/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mohamad/Desktop/tp_threads /home/mohamad/Desktop/tp_threads /home/mohamad/Desktop/tp_threads/build /home/mohamad/Desktop/tp_threads/build /home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/corentin/Documents/sepc/tp_threads/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/corentin/Documents/sepc/tp_threads /home/corentin/Documents/sepc/tp_threads /home/corentin/Documents/sepc/tp_threads/build /home/corentin/Documents/sepc/tp_threads/build /home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/ensivideo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ensivideo.dir/depend
 

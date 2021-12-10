@@ -24,8 +24,8 @@ int main(int argc, char *argv[]) {
     assert(argc == 2);
 
     //initialisation de notre sem 
-    sem_init(&sem_taille_fenetre,0,0);
-    sem_init(&sem_signale_fenetre,0,0);    
+    // sem_init(&sem_taille_fenetre,0,0);
+    // sem_init(&sem_signale_fenetre,0,0);    
 
     // Initialisation de la SDL
 
@@ -37,8 +37,8 @@ int main(int argc, char *argv[]) {
     pthread_t theora ;
     pthread_t vorbis ;
     int t,v ;
-    t = pthread_create( &theora, NULL, &theoraStreamReader,  argv[1] );
-    v = pthread_create( &vorbis, NULL, &vorbisStreamReader, argv[1] );
+    t = pthread_create( &theora, NULL, theoraStreamReader,  argv[1] );
+    v = pthread_create( &vorbis, NULL, vorbisStreamReader, argv[1] );
 
     if(t != 0) 
     {

@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/mohamad/Desktop/tp_threads/src/ensitheora.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/ensitheora.c.o"
-  "/home/mohamad/Desktop/tp_threads/src/ensivideo.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/ensivideo.c.o"
-  "/home/mohamad/Desktop/tp_threads/src/ensivorbis.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/ensivorbis.c.o"
-  "/home/mohamad/Desktop/tp_threads/src/oggstream.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/oggstream.c.o"
-  "/home/mohamad/Desktop/tp_threads/src/stream_common.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/stream_common.c.o"
-  "/home/mohamad/Desktop/tp_threads/src/synchro.c" "/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir/src/synchro.c.o"
+  "/home/corentin/Documents/sepc/tp_threads/src/ensitheora.c" "/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/ensivideo.dir/src/ensitheora.c.o"
+  "/home/corentin/Documents/sepc/tp_threads/src/ensivideo.c" "/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/ensivideo.dir/src/ensivideo.c.o"
+  "/home/corentin/Documents/sepc/tp_threads/src/ensivorbis.c" "/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/ensivideo.dir/src/ensivorbis.c.o"
+  "/home/corentin/Documents/sepc/tp_threads/src/oggstream.c" "/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/ensivideo.dir/src/oggstream.c.o"
+  "/home/corentin/Documents/sepc/tp_threads/src/stream_common.c" "/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/ensivideo.dir/src/stream_common.c.o"
+  "/home/corentin/Documents/sepc/tp_threads/src/synchro.c" "/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/ensivideo.dir/src/synchro.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

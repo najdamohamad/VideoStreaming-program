@@ -1,7 +1,7 @@
-/home/mohamad/Desktop/tp_threads/build/CMakeFiles/edit_cache.dir
-/home/mohamad/Desktop/tp_threads/build/CMakeFiles/test.dir
-/home/mohamad/Desktop/tp_threads/build/CMakeFiles/rebuild_cache.dir
-/home/mohamad/Desktop/tp_threads/build/CMakeFiles/package.dir
-/home/mohamad/Desktop/tp_threads/build/CMakeFiles/check.dir
-/home/mohamad/Desktop/tp_threads/build/CMakeFiles/package_source.dir
-/home/mohamad/Desktop/tp_threads/build/CMakeFiles/ensivideo.dir
+/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/edit_cache.dir
+/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/test.dir
+/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/rebuild_cache.dir
+/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/package.dir
+/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/check.dir
+/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/package_source.dir
+/home/corentin/Documents/sepc/tp_threads/build/CMakeFiles/ensivideo.dir
